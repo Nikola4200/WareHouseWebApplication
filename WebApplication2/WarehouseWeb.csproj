@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20230511075710_addIdentityTable.cs" />
+    <Compile Remove="Migrations\20230511075710_addIdentityTable.Designer.cs" />
+    <Compile Remove="Migrations\20230512093046_InsertedIdentityAppUser_And_InsertedSupplierModel.cs" />
+    <Compile Remove="Migrations\20230512093046_InsertedIdentityAppUser_And_InsertedSupplierModel.Designer.cs" />
+    <Compile Remove="Migrations\20230512093531_InsertedIdentityAppUser_And_InsertedSupplierModel.cs" />
+    <Compile Remove="Migrations\20230512093531_InsertedIdentityAppUser_And_InsertedSupplierModel.Designer.cs" />
+    <Compile Remove="Migrations\20230512093757_InsertedIdentityAppUser_And_InsertedSupplierModel.cs" />
+    <Compile Remove="Migrations\20230512093757_InsertedIdentityAppUser_And_InsertedSupplierModel.Designer.cs" />
+    <Compile Remove="Migrations\20230516164823_PropertiesChangedForQuantityAndClassificationValue.cs" />
+    <Compile Remove="Migrations\20230516164823_PropertiesChangedForQuantityAndClassificationValue.Designer.cs" />
+    <Compile Remove="Migrations\20230516170232_PropertiesChangedForQuantityAndClassificationValue.cs" />
+    <Compile Remove="Migrations\20230516170232_PropertiesChangedForQuantityAndClassificationValue.Designer.cs" />
+    <Compile Remove="Migrations\20230516170750_PropertiesChangedForQuantityAndClassificationValue.cs" />
+    <Compile Remove="Migrations\20230516170750_PropertiesChangedForQuantityAndClassificationValue.Designer.cs" />
+    <Compile Remove="Migrations\20230516172114_PropertiesChangedForQuantityAndClassificationValue.cs" />
+    <Compile Remove="Migrations\20230516172114_PropertiesChangedForQuantityAndClassificationValue.Designer.cs" />
+    <Compile Remove="Migrations\20230517103924_AddedClassificationValueIntoProductAndCreatedRelationship.cs" />
+    <Compile Remove="Migrations\20230517103924_AddedClassificationValueIntoProductAndCreatedRelationship.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.31" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
